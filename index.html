@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pizza Shop</title>
+<link rel="stylesheet" href="CSS/style.css">
+<script src="./js/pizza.js" defer></script>
+</head>
+<body>
+<h2>Order a Pizza</h2>
+<form id="pizzaForm">
+  <label for="name">Enter your name: </label>
+  <input type="text" name="name" id="name">
+  <label for="size">Select Pizza Size:</label>
+  <select id="size" name="size">
+    <option value="small">Small</option>
+    <option value="medium">Medium</option>
+    <option value="large">Large</option>
+  </select>
+  <label for="crust">Select Crust Type:</label>
+  <select id="crust" name="crust">
+    <option value="thin">Thin Crust</option>
+    <option value="thick">Thick Crust</option>
+    <option value="stuffed">Stuffed Crust</option>
+  </select>
+  <label>Select Toppings:</label>
+  <label for="cheese">Cheese</label>
+  <input type="checkbox" id="cheese" name="toppings" value="cheese">
+  <label for="pepperoni">Pepperoni</label>
+  <input type="checkbox" id="pepperoni" name="toppings" value="pepperoni">
+  <label for="mushrooms">Mushrooms</label>
+  <input type="checkbox" id="mushrooms" name="toppings" value="mushrooms">
+  <label for="onions">Onions</label>
+  <input type="checkbox" id="onions" name="toppings" value="onions">
+  <label for="bellPeppers">Bell Peppers</label>
+  <input type="checkbox" id="bellPeppers" name="toppings" value="bellPeppers">
+  <label for="olives">Olives</label>
+  <input type="checkbox" id="olives" name="toppings" value="olives">
+  <label for="delivery">Delivery Address:</label>
+  <input type="text" id="delivery" name="delivery">
+  <button type="button">Place Order</button>
+  <p id="student"></p>
+</form>
+</body>
+</html>
